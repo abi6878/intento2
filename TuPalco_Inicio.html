@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Tu Palco </title>
+        <link rel="stylesheet" href="css/inicio.css">
+        <script src="javaS/formulario_login.js"></script>
+    </head>
+    <body>
+       <table class="menu" rules="none">
+           <tr>
+              <td>&nbsp;&nbsp;<img class="logo" src="css/imagenes/Logo.png"></td>
+               <td class="opcion"><p><a href="index.html">Principal</a></p></td>
+               <td class="opcion"><p><a href="TuPalco_registro.html">Registrate</a></p></td>
+               <td class="opcion"><p><a href="TuPalco_Inicio.html">Iniciar sesión</a></p></td>
+           </tr>
+       </table>
+       
+       <table>
+           <tr>
+               <td class="td">
+                   <form name="formulario" class="formulario_inicio" onsubmit="return validar();" method="post" action="verificar_admin.php">
+                      <h1 class="titulo">INICIA SESION</h1>
+                       <label>Usuario</label>
+                       <input class="usu" id="usuario" name="usu" type="text" size="27"><br>
+                       <label>Contrasena</label>
+                       <input class="usu2" id="pass" name="pass" type="password"><br>
+                       <center><input type="submit" name="enviar" id="enviar" value="Enviar"></center>
+                   </form>
+               </td>
+           </tr>
+       </table>
+        
+    </body>
+</html>

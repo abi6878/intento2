@@ -1,0 +1,77 @@
+body{
+    background-color: #FFF3B4; 
+    background-image: url(imagenes/hola.jpg);
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu{
+    background-color: #3B230E;
+    height: 55px;
+    width: 100%;
+}
+
+p{
+    color: #FFF3B4;
+    text-align: left;
+    font-family: Book Antiqua;
+}
+
+.logo{
+    height: 71px;
+    width: 73px;
+}
+
+.opcion{
+    width: 150px;
+}
+
+a{
+    color: #FFF3B4;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover{
+    color: #4DA768;
+    font-size: 20px;
+}
+.tabla{
+    text-align: center;
+}
+
+.titulo{
+    background: #4DA768;
+    height: 45px;
+    width: 1200px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tabla_campo{
+    width: 1200px;
+    height: 30px;
+    border: 1px solid black;
+    box-shadow: 5px, 10px;
+    background: white;
+}
+
+.campo{
+    margin: 10px;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    font-family: sans-serif;
+    column-rule-style: solid;
+    background: white;
+
+}
+
+.fila{
+    font-family: monospace;
+    height: 25px;
+    text-align: center;
+    background: white;
+
+}

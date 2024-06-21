@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Tu Palco </title>
+        <link rel="stylesheet" href="css/registro.css">
+        <script src="javaS/formulario_registro.js"></script>
+    </head>
+    <body>
+       <table class="menu" rules="none">
+           <tr>
+              <td>&nbsp;&nbsp;<img class="logo" src="css/imagenes/Logo.png"></td>
+               <td class="opcion"><p><a href="index.html">Principal</a></p></td>
+               <td class="opcion"><p><a href="TuPalco_registro.html">Registrate</a></p></td>
+               <td class="opcion"><p><a href="TuPalco_Inicio.html">Iniciar sesión</a></p></td>
+           </tr>
+       </table>
+       
+       <br><center><h1 class="titulo">REGISTRATE</h1></center>
+       
+       <table width="1600px">
+           <tr>
+               <td>
+                   <center>
+                       <form action="registrar.php" method="post" onsubmit="return validar();"><br>
+                          <h2>Datos Personales</h2>
+                          <label class="letras">Apellido Paterno:</label>
+                          <input class="control" type="text" id="app" name="app" maxlength="15">
+                          <label class="letras">Apellido Materno:</label>
+                          <input class="control"  type="text" id="apm" name="apm" maxlength="15">
+                          <label class="letras">Nombre(s):</label>
+                          <input class="control"  type="text" id="nombre" name="nombre" maxlength="30"><br><br>
+                          <label class="letras">Fecha de Nacimiento:</label>
+                          <input class="controlF" type="date" id="fechaN" name="fechaN">
+
+                          <label class="letras">Genero:</label>
+                            <input id="genero" name="genero" class="opcion" type="radio" value="Hombre" >Hombre
+                            <input id="genero" name="genero" class="opcion" type="radio" value="Mujer" >Mujer<br><br>
+
+
+                           <h2>Ubicacion y Contacto</h2>
+                           <label class="letras">Direccion:</label>
+
+                           <label class="letras">Calle</label>
+                           <input class="control"  type="text" id="calle" name="calle" maxlength="30">
+                           <label class="letras">No.</label>
+                           <input class="control"  type="number" id="num" name="num" maxlength="15">
+                           <label class="letras">Col.</label>
+                           <input class="control"  type="text" id="colonia" name="colonia" maxlength="30">
+                           <label class="letras">Municipio</label>
+                           <select class="controlM" name="municipio" id="municipio">
+                                <option value="">Elegir</option>
+                                <option value="Acatlán">Acatlán</option>
+                                <option value="Acaxochitlán">Acaxochitlán</option>
+                                <option value="Actopan">Actopan</option>
+                                <option value="Agua Blanca de Iturbide">Agua Blanca de Iturbide</option>
+                                <option value="Ajacuba">Ajacuba</option>
+                                <option value="Alfajayucan">Alfajayucan</option>
+                                <option value="Almoloya">Almoloya</option>
+                                <option value="Apan">Apan</option>
+                                <option value="El Arenal">El Arenal</option>
+                                <option value="Atitalaquia">Atitalaquia</option>
+                                <option value="Atlapexco">Atlapexco</option>
+                                <option value="Atotonilco el Grande">Atotonilco el Grande</option>
+                                <option value="Atotonilco de Tula">Atotonilco de Tula</option>
+                                <option value="Calnali">Calnali</option>
+                                <option value="Cardonal">Cardonal</option>
+                                <option value="Cuautepec de Hinojosa">Cuautepec de Hinojosa</option>
+                                <option value="Chapantongo">Chapantongo</option>
+                                <option value="Chapulhuacán">Chapulhuacán</option>
+                                <option value="Actopan">Actopan</option>
+                                
+                           </select><br><br>
+                           <label class="letras">Estado</label>
+                           <select class="controlE" name="estado" id="estado">
+                                <option value="">Elegir</option>
+                                <option value="Aguascalientes">Aguascalientes</option>
+                                <option value="Baja California">Baja California</option>
+                                <option value="Baja California Sur">Baja California Sur</option>
+                                <option value="Campeche">Campeche</option>
+                                <option value="Chiapas">Chiapas</option>
+                                <option value="Chihuahua">Chihuahua</option>
+                                <option value="Ciudad de México">Ciudad de México</option>
+                                <option value="Coahuila">Coahuila</option>
+                                <option value="Colima">Colima</option>
+                                <option value="Durango">Durango</option>
+                                <option value="Estado de México">Estado de México</option>
+                                <option value="Guanajuato">Guanajuato</option>
+                                <option value="Gerrero">Gerrero</option>
+                                <option value="Hidalgo">Hidalgo</option>
+                                <option value="Jalisco">Jalisco</option>
+                                <option value="Michoacán">Michoacán</option>
+                                <option value="Morelos">Morelos</option>
+                                <option value="Nayarit">Nayarit</option>
+                                <option value="Nuevo León">Nuevo León</option>
+                                <option value="Oaxaca">Oaxaca</option>
+                                <option value="Puebla">Puebla</option>
+                                <option value="Querétaro">Querétaro</option>
+                                <option value="Quintana Roo">Quintana Roo</option>
+                                <option value="San Luis Potosí">San Luis Potosí</option>
+                                <option value="Sinaloa">Sinaloa</option>
+                                <option value="Sonora">Sonora</option>
+                                <option value="Tabasco">Tabasco</option>
+                                <option value="Tamaulipas">Tamaulipas</option>
+                                <option value="Tlaxcala">Tlaxcala</option>
+                                <option value="Veracruz">Veracruz</option>
+                                <option value="Yucatán">Yucatán</option>
+                                <option value="Zacatecas">Zacatecas</option>
+                           </select>
+                           <label class="letras">Código Postal</label>
+                           <input class="control" type="text" id="postal" name="postal" maxlength="5">
+                           <label class="letras">Teléfono Celular</label>
+                           <input class="control" type="tel" id="tel" name="tel" maxlength="10"><br><br>
+
+                           <h2>Creación de Usuario</h2>
+                           <label class="letras">Correo</label>
+                           <input class="control"  type="text" id="correo" name="correo" maxlength="100">
+                           <label class="letras">Nombre de Usuario</label>
+                           <input class="control"  type="text" id="usuario" name="usuario" maxlength="20"><br><br>
+                           <label class="letras">Contraseña</label>
+                           <input class="control"  type="password" id="pass" name="pass" maxlength="15">
+                           <label class="letras">Confirmar Contraseña</label>
+                           <input class="control"  type="password" id="passC" name="passC" maxlength="15"><br><br><br>
+
+                           <input class="boton" type="submit" value="Enviar" name="enviar" id="enviar">
+                   </form>
+                   </center>
+               </td>
+           </tr>
+       </table>
+        
+    </body>
+</html>

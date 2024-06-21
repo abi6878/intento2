@@ -1,0 +1,83 @@
+body{
+    background-color: #FFF3B4;
+    background-image: url(imagenes/registro4.jpg);
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu{
+    background-color: #3B230E;
+    height: 55px;
+    width: 100%;
+}
+
+p{
+    color: #FFF3B4;
+    text-align: left;
+    font-family: Book Antiqua;
+}
+
+.logo{
+    height: 71px;
+    width: 73px;
+}
+
+.opcion{
+    width: 150px;
+}
+
+a{
+    color: #FFF3B4;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover{
+    color: #4DA768;
+    font-size: 20px;
+}
+
+.titulo{
+    font-family: Freestyle Script;   
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    margin: 0px;
+}
+
+form{
+    color: white;
+}
+
+.letras{
+    margin-left: 40px;
+}
+
+.control{
+    font-size: 14px;
+}
+
+.controlF{
+    width: 180px;
+}
+
+.controM{
+    font-size: 14px;
+    width: 180px;
+}
+
+.controlE{
+    width: 180px;
+    font-size: 14px;
+}
+
+.boton{
+    background: #4DA74E;
+    color: white;
+    font-size: 14px;
+    width: 140px;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid black;
+}

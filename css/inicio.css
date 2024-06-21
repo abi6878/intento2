@@ -1,0 +1,80 @@
+body{
+    background-color: #FFF3B4; 
+    background-image: url(imagenes/hola.jpg);
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu{
+    background-color: #3B230E;
+    height: 55px;
+    width: 100%;
+}
+
+p{
+    color: #FFF3B4;
+    text-align: left;
+    font-family: Book Antiqua;
+}
+
+.logo{
+    height: 71px;
+    width: 73px;
+}
+
+.opcion{
+    width: 150px;
+}
+
+a{
+    color: #FFF3B4;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover{
+    color: #4DA768;
+    font-size: 20px;
+}
+
+.td{
+    padding: 0px;
+}
+
+.formulario_inicio{
+    background: none;
+    width: 310px;
+    padding: 4p;
+    text-align: left;
+    color: white;
+    margin-top: 260px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.titulo{
+    font-family: Freestyle Script;   
+    text-align: center;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.usu{
+    margin-bottom: 12px;
+}
+
+.usu2{
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+#enviar{
+    margin: 6px;
+    padding: 8px;
+    width: 90px;
+    border-radius: 15px;
+    background: #4DA74E;
+    color: #FFF;
+    border: #4DA74E;
+}

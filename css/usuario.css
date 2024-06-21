@@ -1,0 +1,240 @@
+body{
+    background-color: #FFF3B4;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu{
+    background-color: #3B230E;
+    height: 55px;
+    width: 100%;
+}
+
+p{
+    color: #FFF3B4;
+    text-align: left;
+    font-family: Book Antiqua;
+}
+
+.logo{
+    height: 71px;
+    width: 73px;
+}
+
+.opcion{
+    width: 170px;
+}
+
+.opcionM{
+    width: 80px;
+}
+
+.opcionB{
+    width: 90px;
+}
+
+a{
+    color: #FFF3B4;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover{
+    color: #4DA768;
+    font-size: 20px;
+}
+
+.contenido{
+    background: #3B230E;
+    width: 1100px;
+    height: 370px;
+    border: 16px solid #3B230E;
+}
+
+.flor{
+    width: 1100px;
+    height: 300px;
+}
+
+.palabra{
+    position: absolute;
+    top: 180px;
+    left: 500px;
+    transform: translate(-60%,-40%);
+    color: white;
+    font-family:  Freestyle Script;
+    font-size: 80px;
+}
+
+.tr{
+    width: 1000px;
+    padding: 10px;
+}
+
+.td{
+    background: #FFF3B4;
+    padding: 10px;
+    border: 5px solid #3B230E;
+    width: 343px;
+    height: 146px;
+}
+
+.center{
+    height: 300px;
+}
+
+.comida1{
+    width: 150px;
+    position: absolute;
+    bottom: 185px;
+}
+
+.encab1{
+    position: absolute;
+    top: 400px;
+    left: 540px;
+    transform: translate(-60%,-40%);
+    color: #558B2F;
+    font-family: fantasy;
+    font-size: 28px;
+}
+
+.descri1{
+    position: absolute;
+    top: 476px;
+    left: 540px;
+    transform: translate(-60%,-40%);
+    text-align: center;
+    color: black;
+    font-family: inherit;
+}
+
+.comida2{
+    width: 150px;
+    position: absolute;
+    bottom: 225px;
+}
+
+.encab2{
+    position: absolute;
+    top: 400px;
+    left: 870px;
+    transform: translate(-50%,-40%);
+    color: #558B2F;
+    font-family: fantasy;
+    font-size: 28px;
+}
+
+.descri2{
+    position: absolute;
+    top: 476px;
+    left: 890px;
+    transform: translate(-60%,-40%);
+    text-align: center;
+    color: black;
+    font-family: inherit;
+}
+
+.comida3{
+    width: 120px;
+    position: absolute;
+    bottom: 225px;
+}
+
+.encab3{
+    position: absolute;
+    top: 400px;
+    left: 1220px;
+    transform: translate(-50%,-40%);
+    color: #558B2F;
+    font-family: fantasy;
+    font-size: 28px;
+}
+
+.descri3{
+    position: absolute;
+    top: 476px;
+    left: 1240px;
+    transform: translate(-60%,-40%);
+    text-align: center;
+    color: black;
+    font-family: inherit;
+}
+
+.comida4{
+    width: 115px;
+    position: absolute;
+    bottom: 55px;
+}
+
+.encab4{
+    position: absolute;
+    top: 580px;
+    left: 530px;
+    transform: translate(-60%,-40%);
+    color: #558B2F;
+    font-family: fantasy;
+    font-size: 28px;
+}
+
+.descri4{
+    position: absolute;
+    top: 656px;
+    left: 530px;
+    transform: translate(-60%,-40%);
+    text-align: center;
+    color: black;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.comida5{
+    width: 150px;
+    position: absolute;
+    bottom: 25px;
+}
+
+.encab5{
+    position: absolute;
+    top: 550px;
+    left: 820px;
+    color: #558B2F;
+    font-family: fantasy;
+    font-size: 28px;
+    text-align: center;
+}
+
+.descri5{
+    position: absolute;
+    top: 636px;
+    left: 800px;
+    text-align: center;
+    color: black;
+    font-family: inherit;
+}
+
+.comida6{
+    width: 130px;
+    position: absolute;
+    bottom: 45px;
+    border-radius: 10px;
+}
+
+.encab6{
+    position: absolute;
+    top: 560px;
+    left: 1145px;
+    color: #558B2F;
+    font-family: fantasy;
+    font-size: 28px;
+    text-align: center;
+}
+
+.descri6{
+    position: absolute;
+    top: 626px;
+    left: 1140px;
+    text-align: center;
+    color: black;
+    font-family: inherit;
+}
